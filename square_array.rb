@@ -2,8 +2,10 @@ def square_array(array)
   
   squared = []
   
-  array.each { |number|  squared << number**2}
-  
+  array.each do |number| 
+    
+    squared << number**2
+  end
   return squared
     
 end

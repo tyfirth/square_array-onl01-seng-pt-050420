@@ -4,7 +4,7 @@ def square_array(array)
   
   array.each do |number| 
    
-  {squared << number**2}
+  squared << number**2
   
   return squared
   
